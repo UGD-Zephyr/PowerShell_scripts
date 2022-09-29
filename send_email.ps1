@@ -1,9 +1,9 @@
 # Programmer: Per Stoor
 # Date: 2021-12-10
-# Last changed: 2021-12-10
+# Last changed: 2022-09-28
 # Type of script: Sending email through PowerShell.
 
-$mailBodyText = Get-Content "C:\Users\stoorp\Programming\PS1\mailtest.txt"
+$mailBodyText = Get-Content "Filepath to .txt file containing the body text."
 $Outlook = New-Object -ComObject Outlook.Application
 
 $Mail = $Outlook.CreateItem(0)

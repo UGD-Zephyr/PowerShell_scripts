@@ -1,8 +1,8 @@
 # Programmer: Per Stoor
 # Date: 2022-03-30
 # Last changed: 2022-03-30
-# Type of script: SANKI corp. sends many useless files and renaming them is a pain.
-# This script renames the files faster according to our company's needs/
+# Type of script: when corporations sends many useless files and renaming them is a pain.
+# This script renames the files faster. 
 
 $folderPath = Read-Host -Prompt "Enter folder path"
 $companyName = Read-Host -Prompt "Enter company name"
